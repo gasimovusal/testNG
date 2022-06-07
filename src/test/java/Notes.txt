@@ -1,0 +1,33 @@
+
+**************************** Annotations ****************************
+
+* By default, Test cases runs alphabetical order
+* By default, test case priority is 0
+* @Test: creates test case/method
+* @BeforeMethod: same as @Before in junit. runs before each method. Runs before each @Test annotation
+* @AfterMethod: same as @After in junit. runs after each method. Runs after each @Test annotation
+* @Ignore: to skip a test case
+* @Test(enabled = false): to disable test case completely, run button will be gone
+* @Test(priority = 1): priority is used for running test in specific order
+
+**************************** Assertions ****************************
+
+==> What is the difference between assertion and verification?
+* Assertion means hard assertion. Verification means soft assertion. Verification is similar to if else statement.
+* If hard assertion fails, rest of the test case stops.
+==> What is the difference between soft assert and hard assert?
+* Hard assertion stops execution, after assertion failure. Soft assert continues to execute even after failure
+* We need to create a soft assert object to do soft assertion
+* assertAll() need to be used in soft assert to make the actual result
+==> Which assertion do you prefer? Why?
+* I used both. Both assertion are useful. But I used hard assertion the most, because I need to fix the issue the moment it shows up. It usually doesn’t make sense to wait for other tests if there is a failure.
+* If there are  lots of test cases , I prefer to use hard assert to find the wrong test case quickly to fix it.
+* If I use soft assertion, It will run all the tests every time even there are wrong cases in them. I usually use soft assertion when I write new test cases to see if all good or some fails.
+
+**************************** Read Properties ****************************
+
+==> Why do we use configuration.properties file?
+* To store major data in key-value pairs
+==> How do we get data from this file?
+* We create a java class to read the file with fileinputstream, properties object
+
