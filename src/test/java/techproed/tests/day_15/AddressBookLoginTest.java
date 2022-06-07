@@ -5,11 +5,12 @@ import techproed.pages.AddressBookLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 
+
 public class AddressBookLoginTest {
 
     AddressBookLoginPage addressBookLoginPage = new AddressBookLoginPage();
     @Test
-    public void loginTest(){
+    public void loginTest() {
         Driver.getDriver().get(ConfigReader.getProperty("address_url"));
 //        addressBookLoginPage.username.sendKeys("testtechproed@gmail.com");
 //        addressBookLoginPage.password.sendKeys("Test1234!");
