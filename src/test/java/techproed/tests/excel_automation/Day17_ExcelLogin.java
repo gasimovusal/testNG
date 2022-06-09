@@ -1,4 +1,4 @@
-package techproed.tests.day_15.excelautomation;
+package techproed.tests.excel_automation;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;

@@ -1,7 +1,5 @@
 package techproed.self_practice;
 
-import techproed.tests.day_15.AddressBookLoginTest;
-
 public class P01 {
 
     /*

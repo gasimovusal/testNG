@@ -1,4 +1,4 @@
-package techproed.tests.day_15.smoketests;
+package techproed.tests.smoketests;
 
 import com.github.javafaker.Faker;
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package techproed.tests.day_15;
+package techproed.tests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
