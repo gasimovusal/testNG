@@ -28,7 +28,7 @@ public class Day18_DataProvider1 {
         return  customerCredentials;
     }
 
-    @Test(dataProvider = "customer_login_data")
+    @Test(dataProvider = "customer_login_data", groups = "smoke-group-1")
     public void customerLoginInfo(String username, String password){
         System.out.println("Username: " + username + " | Password: " + password);
     }

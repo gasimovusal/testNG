@@ -52,7 +52,7 @@ public class Day17_ExcelLogin {
         }
     }
     @Test
-    public void customerLogin() throws IOException, IOException {
+    public void customerLogin() throws IOException {
 //        path of the excel sheet
         String path = "./src/test/java/resources/mysmoketestdata.xlsx";
 //        customer data sheet

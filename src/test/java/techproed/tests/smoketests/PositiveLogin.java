@@ -27,7 +27,7 @@ public class PositiveLogin {
         Assert.assertTrue(defaultPage.userID.isDisplayed());
         Driver.closeDriver();
     }
-    @Test
+    @Test(groups = "smoke-group-1")
     public void customerLogin(){
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
         homePage = new HomePage();

@@ -31,3 +31,13 @@
 ==> How do we get data from this file?
 * We create a java class to read the file with fileinputstream, properties object
 
+**************************** Parallel Testing ****************************
+
+* Main purpose of doing parallel testing is to reduce the testing time
+* Sequential testing: tests are running one by one
+* Parallel Testing: multiple tests are running same time with different browser
+* We use testNG xml files to do parallel testing
+* Thread-count: number of thread to run in parallel mode (NEVER put more than 10 thread. Average browser will be 2-3)
+* Parallel testing is done for reducing the execution time
+* It especially used when running multiple tests that takes long time
+

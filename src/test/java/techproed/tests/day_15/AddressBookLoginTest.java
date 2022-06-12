@@ -9,7 +9,7 @@ import techproed.utilities.Driver;
 public class AddressBookLoginTest {
 
     AddressBookLoginPage addressBookLoginPage = new AddressBookLoginPage();
-    @Test
+    @Test (groups = "smoke-group-1")
     public void loginTest() {
         Driver.getDriver().get(ConfigReader.getProperty("address_url"));
 //        addressBookLoginPage.username.sendKeys("testtechproed@gmail.com");

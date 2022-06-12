@@ -57,7 +57,7 @@ public class Day18_DataProvider2 {
         }
     }
 
-//FLOW OF THE DATA 2d method returns the data -> : DataProvider looks for hte test method whose name iscustomer-login-data
+//FLOW OF THE DATA 2d method returns the data -> : DataProvider looks for the test method whose name iscustomer-login-data
 //    -> Finds the Test method -> Passes the data to the test methods' parameter in order -> use that parameters in the test method
     @Test(dataProvider = "customer_login_data")
     public void customerLogin(String userName, String password) throws IOException {
